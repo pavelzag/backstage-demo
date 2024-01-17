@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: ERO
+  name: ERO-Test
   description: |
     ERO is Wix IT's services management.
   links:
