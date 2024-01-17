@@ -15,5 +15,5 @@ metadata:
     lighthouse.com/website-url: ttps://github.com/wix-private/ero
 spec:
   type: library
-  owner: CNCF
+  owner: user:principal
   lifecycle: experimental
