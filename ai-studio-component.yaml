@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "AI Studio"
+  description: |
+    The AI Studio Prompt IDE is a state-of-the-art Integrated Development Environment (IDE) and research platform specifically designed for prompt engineers
+  links:
+    - title: Website
+      url: https://ero.wewix.net/ai/studio
+    - title: Repository
+      url: https://github.com/wix-private/ero-ai-playground
+    - title: Documentation
+      url: https://github.com/wix-private/ero-ai-playground/blob/master/README.md
+  annotations:
+    github.com/project-slug: wix-private/ero-ai-playground
+    backstage.io/techdocs-ref: dir:.
+    lighthouse.com/website-url: https://github.com/ero-ai-playground/kgb
+spec:
+  type: library
+  owner: user:arsenyp
+  lifecycle: production

@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "KGB"
+  links:
+    - title: Website
+      url: http://kgb.io
+    - title: Documentation
+      url: https://github.com/wix-private/kgb/blob/master/README.md
+  annotations:
+    github.com/project-slug: wix-private/kgb
+    backstage.io/techdocs-ref: dir:.
+    lighthouse.com/website-url: ttps://github.com/wix-private/kgb
+spec:
+  type: library
+  owner: user:arsenyp
+  lifecycle: production

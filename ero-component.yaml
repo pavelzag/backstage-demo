@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "ERO"
+  description: |
+    ERO is Wix IT's services management.
+  links:
+    - title: Website
+      url: http://ero.io
+    - title: Documentation
+      url: https://github.com/wix-private/ero/blob/master/README.md
+  annotations:
+    github.com/project-slug: wix-private/ero
+    backstage.io/techdocs-ref: dir:.
+    lighthouse.com/website-url: ttps://github.com/wix-private/ero
+spec:
+  type: library
+  owner: user:principal
+  lifecycle: production

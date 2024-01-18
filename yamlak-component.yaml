@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "Yamlak"
+  description: |
+    Yamlak is a small app that allows us to build complicated YAMLs.
+  links:
+    - title: Documentation
+      url: https://github.com/wix-private/systemit-infra-applications/blob/master/README.md
+  annotations:
+    github.com/project-slug: wix-private/systemit-infra-applications/tree/master/yamlak
+    backstage.io/techdocs-ref: dir:.
+    lighthouse.com/website-url: https://github.com/systemit-infra-applications/yamlak
+spec:
+  type: library
+  owner: user:pavelza
+  lifecycle: production
