@@ -2,6 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: "KGB"
+  description: |
+    KGB is Wix IT's secret police.
   links:
     - title: Website
       url: http://kgb.io
@@ -10,7 +12,7 @@ metadata:
   annotations:
     github.com/project-slug: wix-private/kgb
     backstage.io/techdocs-ref: dir:.
-    lighthouse.com/website-url: ttps://github.com/wix-private/kgb
+    lighthouse.com/website-url: https://github.com/wix-private/kgb
 spec:
   type: library
   owner: user:arsenyp
